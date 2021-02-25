@@ -13,10 +13,11 @@ Sklearn, Pandas, Numpy, Nltk, Seaborn
 ## Description / Goals 
 1. Create WordClouds for each one of the five articles' categories.
 2. Implement different Classifiers using word counts and tf-idf transformations embeddings:
-  * Support Vector Machines (sklearn)
+   * Support Vector Machines (sklearn)
   * Random Forests (sklearn)
   * Naive Bayes (sklearn)
   * K-Nearest Neighbor (implementation of K-Nearest Neighbor algorithm using Majority Voting to predict the final label)
+  
   We evaluate the performance of each method using 10-fold Cross Validation with the following metrics:
   * Accuracy
   * Precision  
