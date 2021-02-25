@@ -24,27 +24,13 @@ We evaluate the performance of each method using 10-fold Cross Validation with t
 * Recall 
 *  F1-score
 * ROC plot 
-3. Implement Clustering
-In this query you need to implement clustering in the various text files.
-The number of clusters for each query will be 5. The clustering will be done with
-use of the K-Means clustering algorithm. The distance function that should
-to be used is Cosine Similarity. K-Means will be applied to the data
-training set. Clustering should be implemented without
-use the Category variable. The clustering should be done in the following
-different representations of the texts:
-● In the corresponding document-words table that will result from BoW
-representation of texts (both in simple counts and individually in
-tf-idf transformation of counts)
-● In the corresponding document-embeddings table that will appear
-using pre-trained embeddings (one of word2vec, glove, fast-text).
-Also, visualize the distribution of texts in the space and make it visible
-the cluster they belong to as well as their actual category. To
-you can view the points in 2d space, use a compression method
-Principal Component Analysis (PCA), Singular Value Decomposition (SVD) or
-Independent Component Analysis (ICA) (if you use all 3 you have a bonus). The
-compression method you will apply it to both representations mentioned
-previously.
-
+3. Implement Clustering using the K-Means clustering algorithm and Cosine Similarity as the distance function. <br> The clustering is applied in the following representations of the articles:
+* Bag of words representation of texts (word counts & tf-idf transformation of counts)
+* Pre-trained word2vec embeddings 
+We visualize the distribution of texts in the spacethe points in 2d space, use a compression method
+* Principal Component Analysis (PCA) 
+* Singular Value Decomposition (SVD) 
+* Independent Component Analysis (ICA)
 
 ## Tips
 Add the 'articles.tsv' dataset in your 'gdrive/My Drive/Colab Notebooks/' path to execute correctly
