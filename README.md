@@ -25,7 +25,7 @@ Sklearn, Pandas, Numpy, Nltk, Seaborn
     * F1-score
     * ROC plot 
 3. Implement Clustering using the K-Means clustering algorithm and Cosine Similarity as the distance function. <br> The clustering is applied in the following representations of the articles:
-    * Bag of words representation of texts (word counts & tf-idf transformation of counts)
+    * Bag of words representation (word counts & tf-idf transformation of counts)
     * Pre-trained word2vec embeddings 
     
     We visualize the distribution of texts in the spacethe points in 2d space, use a compression method
