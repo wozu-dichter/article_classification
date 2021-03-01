@@ -34,7 +34,7 @@ Sklearn, Pandas, Numpy, Nltk, Seaborn
     * Independent Component Analysis (ICA)
 
 ## Tips
-Add the 'articles.tsv' dataset in your 'gdrive/My Drive/Colab Notebooks/' path to execute correctly
+Add the `articles.tsv` dataset in your `gdrive/My Drive/Colab Notebooks/` path to execute correctly
 
 ## Author
 Vassilis Panagakis
