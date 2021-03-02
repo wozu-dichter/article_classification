@@ -4,7 +4,7 @@ Application of Multiclassification and Clustering on articles
 ## Platform
 Google Collab
 
-## Language
+## Programming Language
 Python
 
 ## Libraries
@@ -38,6 +38,3 @@ Add the `articles.tsv` dataset in your `gdrive/My Drive/Colab Notebooks/` path t
 
 ## Author
 Vassilis Panagakis
-
-## Date
-May 2020
