@@ -28,7 +28,7 @@ Sklearn, Pandas, Numpy, Nltk, Seaborn
     * Bag of words representation (word counts & tf-idf transformation of counts)
     * Pre-trained word2vec embeddings 
     
-    We visualize the distribution of texts in the spacethe points in 2d space, use a compression method
+    We visualize the distribution of articles' categories in the 2D space using different compression methods:
     * Principal Component Analysis (PCA) 
     * Singular Value Decomposition (SVD) 
     * Independent Component Analysis (ICA)
